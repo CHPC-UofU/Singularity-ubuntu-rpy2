@@ -1,4 +1,4 @@
-imgname=r2py
+imgname=rpy2
 osname=ubuntu
 rm -f ${osname}_${imgname}.img
 sudo singularity create --size 2048 ${osname}_${imgname}.img
